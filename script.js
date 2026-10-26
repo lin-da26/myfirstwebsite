@@ -1,6 +1,7 @@
 
+const name = "Abigael";
 const button = document.getElementById("welcomeBtn");
 
 button.addEventListener("click", function () {
-    alert("Congratulations! Your JavaScript works!");
+    alert(`Welcome to my portfolio! My name is ${name}.`);
 });
